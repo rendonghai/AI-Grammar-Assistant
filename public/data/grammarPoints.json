@@ -1,0 +1,94 @@
+{
+    "units": [
+      {
+        "unit": "Unit 1",
+        "unit_title": "Cinderella",
+        "grammar_points": [
+          "why引导的特殊疑问句：用来询问发生某一动作或存在某一状态的原因，结构为\"Why+一般疑问句?\"。用why提问时，应由because引导回答，结构为\"Because+陈述句.\"。because用作连词，表示\"因为\"，引导原因状语从句，陈述原因、理由。",
+          "一般现在时中，动词的第三人称单数变化规则：(1)一般情况下，在动词词尾直接加-s。例如：find—finds,look—looks,fit—fits.(2)以s,x,sh,ch结尾的动词，以及以\"辅音字母+o\"结尾的动词，变为第三人称单数时，一般在词尾加-es。例如：guess—guesses,fix—fixes,wash—washes,watch—watches,go—goes.(3)以\"辅音字母+y\"结尾的动词，变y为i再加-es。例如：try—tries,fly—flies.(4)不规则的特殊变化。例如：have—has.",
+          "表示穿上/脱下服装动作的短语：try on意为\"试穿\"，put on意为\"穿上\"，take off意为\"脱下\"。后面的宾语(对象)如果是名词，放在短语中间或后面均可，例如：try the shoe on,take off the T-shirt;如果是代词，代词只能放在中间并且用宾格形式，例如：put them on,try it on,take them off.",
+          "have to的用法：have to表示\"不得不(做某事)\"，其后接动词原形。如果主语是第三人称单数，则是\"…has to do sth.\"形式。have to强调因为客观因素或条件制约，\"不得不\"去做某事.",
+          "be bad for的用法：be bad for意为\"对……有害\"，其后接名词(短语)或人称代词宾格，反义短语是be good for，意为\"对……有益\"。而它们的主语是名词(短语)、代词或动名词(短语).",
+          "can't=cannot,don't=do not,doesn't=does not，后面都跟动词原形."
+        ]
+      },
+      {
+        "unit": "Unit 2",
+        "unit_title": "How do you come to school?",
+        "grammar_points": [
+          "询问某人居住在某地的表达：句型结构为\"Where+助动词do或does+主语+live(+其他)?\".",
+          "关于居住地的介词：live表示\"住，居住\"时，后面经常跟介词in,on或at.",
+          "疑问词how的用法：(1)(表方式、方法)怎样，怎么 (2)(指健康等情况)怎么样 (3)(询问天气)怎么样 (4)(指数量、程度)多少.",
+          "交通方式的表达：(1)by是介词，表示方式，后面跟交通工具 (2)表示\"步行\"的介词短语是on foot.",
+          "show的用法：show作动词，表示\"给……看\"，表示\"给某人看某事物\"可以说show sth.to sb.也可以说show sb.sth..",
+          "go to和get to的用法：\"go to+地点名词\"表示\"去……\"；\"get to+地点名词\"表示\"到达……\"."
+        ]
+      },
+      {
+        "unit": "Unit 3",
+        "unit_title": "Asking the way",
+        "grammar_points": [
+          "问路的常用句型：\"How do I/we get to ...?\"是问路的常用句型，意为\"到……怎么走?\". get to后面加地点名词，如果后面是地点副词(home、there、here等)则省略to.提优其他问路句型举例：(1)Excuse me,can you tell me the way to the hospital,please? 打扰一下，请问你能告诉我去医院的路吗?(2)Could you show me the way to the hospital?你能给我指一下去医院的路吗?(3)Where's the hospital?医院在哪里?(4)Could you tell me how to get to the hospital?你能告诉我怎样到达医院吗?",
+          "指路的常用句型：(1)Go/Walk along …沿着……走.(2)Turn left/right at…在……处向左/右转.(3)Get on/off at ..在……上/下车.(4)You can take the...to get there.你可以乘……(比如公共汽车或地铁)到达那里.(5)You can see ...on your left/right.你能在你的左侧/右侧看到…….",
+          "by和take表示搭乘交通工具的用法：(1)\"by+交通工具\"是介词短语，在句子中不充当谓语，一般放在动词短语后面作为说明，by后面不能加冠词，交通工具名词用单数形式，如：by bus乘公共汽车，by bike骑自行车.(2)\"take+冠词+交通工具\"是动词短语，在句中可以作谓语，take和交通工具之间需要加冠词，例如：take a bus乘公共汽车，take the metro乘地铁.",
+          "ask的用法：ask是动词，后面的人称代词用宾格形式.\"ask sb.for help\"表示\"向某人求助\".这里的ask表示\"请求\"的意思.ask还表示\"提问\"等意思.提优固定搭配\"ask sb.to do sth.\"表示\"要求/请求某人做某事\".\"ask sb.about sth.\"表示\"向某人提问有关某事\".",
+          "excuse me与sorry的区别：excuse me是礼貌用语，用于引起别人的注意，可以用于：(1)向不熟悉的人提问或请求.(2)客气地打断别人的话.(3)用于中途离开或暂时告别.也就是说，通常excuse me用于打扰别人.例如：Excuse me,is the bus stop near here?打扰一下，请问公共汽车站是在附近吗? 而sorry则表示自己因说错话或做错事，对别人表示歉意，用于向别人道歉，或者委婉地拒绝别人.例如：(1)Sorry,I'm late.对不起，我迟到了.(2)—Let's play!让我们一起玩吧! —Sorry.I have to do my homework.对不起。我得做我的家庭作业.",
+          "get in和get on的用法区别：两者都可表示\"上车\"，get in一般用于小汽车、出租车等小型交通工具，get on一般用于公共汽车、火车、飞机、轮船等大型交通工具.并且表示\"下车\"时，小型交通工具常用\"get out of\"，大型交通工具常用\"get off\"."
+        ]
+      },
+      {
+        "unit": "Unit 4",
+        "unit_title": "Seeing the doctor",
+        "grammar_points": [
+          "询问病情的常用句型：\"What's wrong with sb.?\"意思是\"某人怎么了?\".同义句是 \"What's the matter with sb.?\".注意with后接人称代词的宾格形式.如果问某人感觉怎么样，可以说：How do/does+主语+feel(now)?",
+          "身体不适的常用表达：(1)have可以与表示疾病的名词连用，表示\"患某种疾病\"，例如： I have a cold.我感冒了. She has a fever.她发烧了.提优have的其他用法：与一些动词和名词同形的名词连用，表示某个动作，如：have a look/walk/talk;还可以与表示活动的名词搭配，如：have a party/picnic/lesson.(2)可以用\"主语+be动词/feel(s)十形容词(状态).\"的句型.例如：I'm tired.我累了. He feels cold.他感到冷.提优feel是感官系动词，其他感观系动词还有look(看上去)，sound(听起来)等，后跟形容词.(3)其他表达，例如：My leg hurts.我的腿疼.",
+          "情态动词should的用法：should表示\"应该\"，没有人称和数的变化，后跟动词原形.(1)用来提出建议和忠告，后面接动词原形.例如：She should wear more clothes.她应该多穿点衣服.(2)否定形式should not=shouldn't.例如：You shouldn t eat too much meat.你不应该吃太多肉.(3)\"What should.…do?\"表示\"……应该做什么?\".该句型用于询问某人应该做什么事情.",
+          "something和anything的区别：通常something表示\"一些东西\"，用于肯定句；anything表示\"任何东西\"，用于否定句和疑问句.例如：I have something to eat.我有一些吃的东西. I can't eat anything.我不能吃任何东西.但是当礼貌地请别人吃(喝)东西时，应该使用something.例如： Would you like something to drink?你想要一些喝的东西吗?",
+          "be happy to do sth.:这是\"形容词+动词不定式\"结构，意思是\"高兴/乐于做某事\".be动词的形式随前面人称的变化而变化.形容词后面是\"to+动词原形+其他\".例如： I'm happy to see you again.我很高兴又见到你.",
+          "take的用法：\"take some medicine\"表示\"吃一些药\"，take在这里可以表示\"吃；喝；服用\".take还可以表示\"乘坐某种交通工具\"，例如：take the bus乘公共汽车.take还可以表示\"拿，取\"，例如：Do you take an umbrella to school?你上学带伞吗?"
+        ]
+      },
+      {
+        "unit": "Unit 5",
+        "unit_title": "Helping our parents",
+        "grammar_points": [
+          "现在进行时：现在进行时表示正在进行的动作或存在的状态，基本结构为\"be动词+现在分词\"，be动词的形式要根据主语来确定.常见的提示现在进行时的时间状语有now,at the moment等；具体时间提示有\"It's.….o'clock.\"等.还有一些动词也可作为提示词，如look,listen等.(1)肯定句的句型结构：主语+be动词十现在分词十其他.例如：They are watching a film now.他们现在正在看电影.(2)否定句的句型结构：主语+be动词+not+现在分词十其他.例如：They aren't watching a film now.他们现在没有在看电影.(3)特殊疑问句的句型结构：特殊疑问词+be动词十主语+现在分词(十其他)? 例如：What is Helen doing?海伦正在做什么?",
+          "动词现在分词的构成：(1)大部分动词是在其原形后直接加-ing.例如：sing—singing,do—doing,clean—cleaning,cook—cooking,eat—eating,help—helping,wash—washing,watch—watching ..(2)以不发音的字母e结尾的动词，先去掉e，再加-ing.例如：make—making,write—writing,take—taking,skate—skating,have—having,ride—riding ...(3)以重读闭音节结尾的动词，如果末尾只有一个辅音字母，则应先双写这个辅音字母，再加-ing.例如：swim—swimming,run—running,jog—jogging,sit—sitting,put—putting.",
+          "like doing sth.和like to do sth.: like doing sth.表示某人的稳定爱好或经常性的动作，侧重已经存在或者存在过的情况.而like to do sth.表示某一次的行为，为临时性的动作，侧重将来的趋势.例如： Mike likes playing football.迈克喜欢踢足球.Mike likes to swim these days.迈克这些天喜欢去游泳.",
+          "be busy: be busy的意思是\"忙的\".可以接\"with+名词\"，也可以接\"(in+)动名词\"，表示\"忙于……\".例如：I'm busy with my homework.我在忙于家庭作业.I'm busy(in)doing my homework.我正在忙于做家庭作业."
+        ]
+      },
+      {
+        "unit": "Unit 6",
+        "unit_title": "In the kitchen",
+        "grammar_points": [
+          "现在进行时的一般疑问句结构：Be动词十主语+动词-ing+其他? 肯定回答：Yes,主语+be动词. ;否定回答：No,主语+be动词+not.例如： —Is she running?她正在?跑步吗 —Yes,she is./No,she isn't.是的，她在(跑步)./不，她不在(跑步). —Are they climbing?他们正在爬山吗? —Yes,they are./No,they aren't.是的，他们在(爬山)./不，他们不在(爬山).",
+          "there be句型中be动词的用法：there be句型表示\"某地有某人或某物\".当be动词后接可数名词的单数或者不可数名词时，be动词用is.当主语为多个名词时，be动词应与其后出现的最接近的名词在数上保持一致，即遵循\"就近原则\".不可数名词举例：milk;juice;bread;soup;meat;beef;chicken(作为鸡肉);fish(作为鱼肉) 可数名词的复数举例：tomatoes;potatoes;dogs;ladybirds;vegetables",
+          "\"How is .….?\"用来询问某人、某事或某物怎么样，后面的主语是单数形式.例如：—How is the library?图书馆怎么样? —It's big and nice.它又大又漂亮. 如果后面的主语是复数形式，或者第二人称，则用\"How are...?\"例如：—How are you?你(们)怎么样? —I'm/We're fine.Thanks.我/我们很好.谢谢.",
+          "感官系动词的用法：有一些动词可作为感官系动词：look看起来，smell闻起来，sound听起来，taste尝起来，feel摸起来…….这些感官系动词后面接形容词来对某物进行描述.例如：That smells nice.那个闻起来香. The pandas look very fat.熊猫们看上去很胖.",
+          "can't wait:表示\"等不及，迫不及待\"，后面可以接\"to do sth.\".例如： I can't wait to eat!我等不及吃了!"
+        ]
+      },
+      {
+        "unit": "Unit 7",
+        "unit_title": "Chinese festivals",
+        "grammar_points": [
+          "节日名称规范：\n(1)大型节日名称的每个单词首字母都要大写.\n(2)一般情况下，由festival构成的我国传统节日名称前加定冠词the.例如：the Dragon Boat Festival端午节.而以day结尾的中国传统节日或西方传统节日前则不加the.例如：Mother's Day母亲节.",
+          "day,festival和holiday这三个单词都和\"节日\"有关，但用法有所区别：\n(1)为特定人群设立的节日通常用day.例如：Teachers'Day教师节，Father's Day父亲节.\n(2)festival通常表示传统的、有特定风俗和庆祝活动的节日.例如：the Double Ninth Festival重阳节.\nfestival也可以表示音乐、戏剧等节日，泛指节日种类时不需要大写首字母.例如：the reading festival读书节，the food festival美食节，the film festival电影节.\n(3)holiday表示休假，指不用上班或上学的日子.例如：summer holiday暑假，National Day holiday国庆节假期.",
+          "月份的缩写形式：(月份缩写形式一般不单独使用，而是用于完整的日期中，如Oct.1st)\nJanuary—Jan.\nFebruary—Feb.\nMarch—Mar.\nApril—Apr.\nMay—May.\nJune—Jun.\nJuly—Jul.\nAugust—Aug.\nSeptember—Sept.\nOctober—Oct.",
+          "表示时间的介词有at,on,in，其区别如下：\n(1)at表示在具体某个时刻，或者某个节日期间.例如：at six o'clock在六点，at the Spring Festival在春节.\n还有固定短语at night在晚上.\n(2)on表示在具体的某一天，或者具体某一天的上午/下午/晚上.例如：on Mother s Day在母亲节，on Sunday morning在星期日早上.\n(3)in表示在某一年、某个季节，或者某个月份.例如：in 2025在2025年，in spring在春天，in January在一月.\nin还与上午、下午、晚上连用构成固定短语.例如：in the morning/afternoon/evening在上午/下午/晚上."
+        ]
+      },
+      {
+        "unit": "Unit 8",
+        "unit_title": "Birthdays",
+        "grammar_points": [
+          "序数词的用法：(1)数词分为基数词和序数词.基数词表示数量，序数词表示顺序\"第几\"，使用序数词时一般前面加定冠词the，英文日期中需要使用序数词.例如：the first boy第一个男孩；on the eighth of May在五月八日.注：当序数词位于形容词性物主代词后面时，前面不加 the.例如：my first English teacher我的第一位英语老师.(2)基数词转换为序数词的规律口诀：一二三特殊记；th要从四加八去起；t,九去e;ve要用f替；ty要换tie;遇见几十几，只变个位就可以.例如：five—fifth,eight-eighth,twelve—twelfth,twenty-twentieth.(3)序数词的缩写形式：数字+其序数词的最后两个字母.例如：first-1st,second-2nd,third-3rd,fourth-4th,sixth-6th,twentieth-20th,twenty-third-23rd.其中1st,2nd,3rd为特殊形式.",
+          "英文日期的表达：\"the+序数词+of+月份\"，或者\"月份+序数词\".例如： the tenth of September =Sept.10th=September 10th九月十日",
+          "询问对方生日的表达：用when引导特殊疑问句，结构是\"When's your birthday?\"，它的答语是\"It's+表示时间的介词短语.\"或\"My birthday is+表示时间的介词短语.\".例如：—When's your birthday?你的生日是什么时候? —It's on the first of April.在四月一日.",
+          "询问方式、方法的疑问句：how可以引导询问方式、方法的疑问句，意为\"怎样\".例如：— I openHow can the door?我怎样才能打开门?—You can use this key to open it.你可以使用这把钥匙开门.",
+          "be easy for:\"be easy for sb.\"表示\"(某事)对某人来说容易\".类似的结构有：be bad for sb.对某人有害；be good for sb.对某人有益；be difficult for sb.对某人来说是困难的.例如：Drawing is difficult for me.绘画对我来说是困难的. Eating too much is bad for you.吃太多对你不好."
+        ]
+      }
+    ]
+  }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
 import LoadingSpinner from './LoadingSpinner';
 
@@ -13,12 +13,43 @@ function WeakPointsView() {
   
   const [selectedWeakPoint, setSelectedWeakPoint] = useState(null);
   const [exerciseCount, setExerciseCount] = useState(5);
+  const [checkedWeakPoints, setCheckedWeakPoints] = useState([]);
   const weakPoints = weakPointsManager.getWeakPoints();
+  
+  // Reset checked items when weak points change
+  useEffect(() => {
+    setCheckedWeakPoints([]);
+  }, [weakPoints.length]);
   
   const handleExerciseGeneration = () => {
     if (selectedWeakPoint) {
       selectGrammarPoint(selectedWeakPoint.grammarPoint);
       generateExercises(exerciseCount);
+    }
+  };
+  
+  const handleCheckboxChange = (grammarPoint) => {
+    setCheckedWeakPoints(prev => {
+      if (prev.includes(grammarPoint)) {
+        return prev.filter(point => point !== grammarPoint);
+      } else {
+        return [...prev, grammarPoint];
+      }
+    });
+  };
+  
+  const handleDeleteSelected = () => {
+    if (checkedWeakPoints.length === 0) return;
+    
+    // Remove the selected weak points
+    weakPointsManager.removeMultipleWeakPoints(checkedWeakPoints);
+    
+    // Clear checked items
+    setCheckedWeakPoints([]);
+    
+    // Clear selected weak point if it was deleted
+    if (selectedWeakPoint && checkedWeakPoints.includes(selectedWeakPoint.grammarPoint)) {
+      setSelectedWeakPoint(null);
     }
   };
   
@@ -51,9 +82,22 @@ function WeakPointsView() {
     <div>
       <h2 className="text-2xl font-bold mb-6 text-center">薄弱点专项练习</h2>
       
+      <div className="mb-4 flex justify-between items-center">
+        <h3 className="text-xl font-semibold text-gray-700">选择需要加强的语法点</h3>
+        {checkedWeakPoints.length > 0 && (
+          <button 
+            onClick={handleDeleteSelected}
+            className="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700 transition-colors flex items-center"
+          >
+            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+            </svg>
+            删除选中项 ({checkedWeakPoints.length})
+          </button>
+        )}
+      </div>
+      
       <div className="mb-8">
-        <h3 className="text-xl font-semibold mb-4 text-gray-700">选择需要加强的语法点</h3>
-        
         {weakPoints.map((weakPoint, index) => (
           <div 
             key={index}
@@ -62,10 +106,20 @@ function WeakPointsView() {
                 ? 'border-blue-500 bg-blue-50' 
                 : 'border-gray-200 hover:border-blue-300'
             }`}
-            onClick={() => setSelectedWeakPoint(weakPoint)}
           >
             <div className="flex items-start">
-              <div className="mr-3 mt-1">
+              <div className="flex space-x-2 mr-3 mt-1">
+                <input 
+                  type="checkbox" 
+                  id={`check-weak-point-${index}`}
+                  checked={checkedWeakPoints.includes(weakPoint.grammarPoint)}
+                  onChange={(e) => {
+                    // Prevent radio button click when clicking on checkbox
+                    e.stopPropagation(); 
+                    handleCheckboxChange(weakPoint.grammarPoint);
+                  }}
+                  className="h-4 w-4 text-red-600" 
+                />
                 <input 
                   type="radio" 
                   id={`weak-point-${index}`}
@@ -75,7 +129,10 @@ function WeakPointsView() {
                   className="h-4 w-4 text-blue-600" 
                 />
               </div>
-              <div className="flex-grow">
+              <div 
+                className="flex-grow cursor-pointer"
+                onClick={() => setSelectedWeakPoint(weakPoint)}
+              >
                 <div className="flex justify-between items-start">
                   <label 
                     htmlFor={`weak-point-${index}`} 

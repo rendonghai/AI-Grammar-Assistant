@@ -7,18 +7,21 @@ function ExerciseSessionView() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [currentAnswer, setCurrentAnswer] = useState('');
   
+  // Initialize answer state when exercise changes
+  useEffect(() => {
+    if (exerciseSession) {
+      const currentExercise = exerciseSession.getCurrentExercise();
+      if (currentExercise && currentExercise.userAnswer !== undefined) {
+        setCurrentAnswer(currentExercise.userAnswer || '');
+      }
+    }
+  }, [exerciseSession]);
+  
   if (!exerciseSession) {
     return null;
   }
   
   const currentExercise = exerciseSession.getCurrentExercise();
-  
-  // Initialize answer state when exercise changes
-  useEffect(() => {
-    if (currentExercise && currentExercise.userAnswer !== undefined) {
-      setCurrentAnswer(currentExercise.userAnswer || '');
-    }
-  }, [exerciseSession.currentIndex, currentExercise]);
   
   const handleAnswerInput = (value) => {
     setCurrentAnswer(value);

@@ -51,6 +51,21 @@ class WeaknessManager {
   }
 
   /**
+   * Remove multiple grammar points from the weak points list
+   * @param {Array<string>} grammarPoints - Array of grammar point content to remove
+   */
+  removeMultipleWeakPoints(grammarPoints) {
+    if (!grammarPoints || grammarPoints.length === 0) return;
+    
+    const initialLength = this.weakPoints.length;
+    this.weakPoints = this.weakPoints.filter(wp => !grammarPoints.includes(wp.grammarPoint));
+    
+    if (this.weakPoints.length !== initialLength) {
+      this.saveToLocalStorage();
+    }
+  }
+
+  /**
    * Get all weak points
    * @returns {Array<object>} Array of weak point objects
    */

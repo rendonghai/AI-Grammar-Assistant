@@ -8,12 +8,12 @@ class ApiService {
    * Note: In a production environment, these would be environment variables
    */
   static API_BASE_URL = 'https://agentapi.baidu.com/assistant';
-  static EXERCISE_GEN_APP_ID = 'EBbvCup3KWgSfD9p3jhEdINQ0PFcpnFH';
-  static EXERCISE_GEN_SECRET_KEY = 'SsIR8q1sb9U8BGUQ5es3W7oEVWOPXqhp';
-  static EXERCISE_EXPLANATION_APP_ID = 'rSwV8wXv9iENPCkvKWLCXQSFV3UD8m3P';
-  static EXERCISE_EXPLANATION_SECRET_KEY = 'IQZXB945RYxNhLybNmKC0IZUo9zD2NbA';
-  static EXERCISE_CORRECTION_APP_ID = 'rvCBKyH8vq3c2iTciadwGOugQl2yczzi';
-  static EXERCISE_CORRECTION_SECRET_KEY = 'k1R72TWutXLFm9Wu5N4a3HsUix6YiBmR';
+  static EXERCISE_GEN_APP_ID = 'NA40PCgLFeMUrhekrMDVoKIG6V5xGSay';
+  static EXERCISE_GEN_SECRET_KEY = 'k5Bk8FTaEkWHzjX2BGCzkZrSaPekyTsk';
+  static EXERCISE_EXPLANATION_APP_ID = 'yfEFt44jJ9snY1eawuHTVpVwSmHFT3Z8';
+  static EXERCISE_EXPLANATION_SECRET_KEY = 'k3zFP3epBFX1AU6PcfEBuxGaRB4McmI2';
+  static EXERCISE_CORRECTION_APP_ID = 'IgBro6fUZMYxh7RDtOzWBz88RJb1uEOl';
+  static EXERCISE_CORRECTION_SECRET_KEY = 'PYc94DtdxH0d3cOI9ceNKyGawacjDVJi';
 
   /**
    * Generate exercises based on a grammar point

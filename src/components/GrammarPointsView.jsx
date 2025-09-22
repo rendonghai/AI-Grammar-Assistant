@@ -21,13 +21,8 @@ function GrammarPointsView() {
   const handleExerciseGeneration = async () => {
     if (selectedGrammarPointIndex !== null) {
       const grammarPoint = currentUnit.grammarPoints[selectedGrammarPointIndex].content;
-      // Select the grammar point first
       selectGrammarPoint(grammarPoint);
-      
-      // Use setTimeout to ensure state update completes before generating exercises
-      setTimeout(() => {
-        generateExercises(exerciseCount);
-      }, 0);
+      generateExercises(exerciseCount, grammarPoint);
     }
   };
 

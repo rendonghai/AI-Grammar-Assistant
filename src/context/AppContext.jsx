@@ -94,17 +94,18 @@ export const AppContextProvider = ({ children }) => {
     dispatch({ type: 'SET_CURRENT_GRAMMAR_POINT', payload: grammarPoint });
   };
   
-  const generateExercises = async (count = 5) => {
-    if (!state.currentGrammarPoint) {
+  const generateExercises = async (count = 5, grammarPointContent) => {
+    const activeGrammarPoint = grammarPointContent || state.currentGrammarPoint;
+    if (!activeGrammarPoint) {
       return;
     }
-    
+
     // Clear any previous errors
     dispatch({ type: 'SET_ERROR', payload: null });
     dispatch({ type: 'SET_GENERATING_EXERCISES', payload: true });
     
     try {
-      const grammarPointObj = new GrammarPoint(state.currentGrammarPoint);
+      const grammarPointObj = new GrammarPoint(activeGrammarPoint);
       const exercises = await grammarPointObj.generateExercises(count);
       
       // Validate that we received proper exercises
@@ -121,7 +122,7 @@ export const AppContextProvider = ({ children }) => {
         throw new Error('Generated exercises are invalid. Please try again.');
       }
       
-      const session = new ExerciseSession(validExercises, state.currentGrammarPoint);
+      const session = new ExerciseSession(validExercises, activeGrammarPoint);
       dispatch({ type: 'SET_EXERCISE_SESSION', payload: session });
     } catch (error) {
       console.error('Failed to generate exercises:', error);

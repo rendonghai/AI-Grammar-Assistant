@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useAppContext } from '../context/AppContext';
-import LoadingSpinner from './LoadingSpinner';
 
 function WeakPointsView() {
   const { 
@@ -14,13 +13,77 @@ function WeakPointsView() {
   const [selectedWeakPoint, setSelectedWeakPoint] = useState(null);
   const [exerciseCount, setExerciseCount] = useState(5);
   const [checkedWeakPoints, setCheckedWeakPoints] = useState([]);
+  const [storedPassword, setStoredPassword] = useState(null);
+  const [showPasswordForm, setShowPasswordForm] = useState(false);
+  const [passwordInput, setPasswordInput] = useState('');
+  const [confirmPasswordInput, setConfirmPasswordInput] = useState('');
+  const [passwordMessage, setPasswordMessage] = useState('');
+  const [oldPasswordInput, setOldPasswordInput] = useState('');
+  const [deletePasswordInput, setDeletePasswordInput] = useState('');
+  const [deleteError, setDeleteError] = useState('');
   const weakPoints = weakPointsManager.getWeakPoints();
-  
+
+  useEffect(() => {
+    try {
+      const savedPassword = localStorage.getItem('weak_points_admin_password');
+      if (savedPassword) {
+        setStoredPassword(savedPassword);
+      }
+    } catch (error) {
+      console.error('Failed to load weak points password:', error);
+    }
+  }, []);
+
   // Reset checked items when weak points change
   useEffect(() => {
     setCheckedWeakPoints([]);
   }, [weakPoints.length]);
-  
+
+  const togglePasswordForm = () => {
+    setShowPasswordForm(prev => !prev);
+    setPasswordMessage('');
+    setOldPasswordInput('');
+    setPasswordInput('');
+    setConfirmPasswordInput('');
+  };
+
+  const handlePasswordSave = () => {
+    if (storedPassword) {
+      if (!oldPasswordInput) {
+        setPasswordMessage('请输入旧密码');
+        return;
+      }
+
+      if (oldPasswordInput !== storedPassword) {
+        setPasswordMessage('旧密码不正确');
+        return;
+      }
+    }
+
+    if (!passwordInput) {
+      setPasswordMessage('密码不能为空');
+      return;
+    }
+
+    if (passwordInput !== confirmPasswordInput) {
+      setPasswordMessage('两次输入的密码不一致');
+      return;
+    }
+
+    try {
+      localStorage.setItem('weak_points_admin_password', passwordInput);
+      setStoredPassword(passwordInput);
+      setShowPasswordForm(false);
+      setOldPasswordInput('');
+      setPasswordInput('');
+      setConfirmPasswordInput('');
+      setPasswordMessage('');
+    } catch (error) {
+      console.error('Failed to save weak points password:', error);
+      setPasswordMessage('保存密码失败，请重试');
+    }
+  };
+
   const handleExerciseGeneration = () => {
     if (selectedWeakPoint) {
       selectGrammarPoint(selectedWeakPoint.grammarPoint);
@@ -37,22 +100,34 @@ function WeakPointsView() {
       }
     });
   };
-  
+
   const handleDeleteSelected = () => {
     if (checkedWeakPoints.length === 0) return;
-    
+
+    if (!storedPassword) {
+      setDeleteError('请先设置管理密码');
+      return;
+    }
+
+    if (deletePasswordInput !== storedPassword) {
+      setDeleteError('管理密码不正确');
+      return;
+    }
+
     // Remove the selected weak points
     weakPointsManager.removeMultipleWeakPoints(checkedWeakPoints);
-    
+
     // Clear checked items
     setCheckedWeakPoints([]);
-    
+    setDeletePasswordInput('');
+    setDeleteError('');
+
     // Clear selected weak point if it was deleted
     if (selectedWeakPoint && checkedWeakPoints.includes(selectedWeakPoint.grammarPoint)) {
       setSelectedWeakPoint(null);
     }
   };
-  
+
   // If there are no weak points, show a message
   if (weakPoints.length === 0) {
     return (
@@ -82,21 +157,86 @@ function WeakPointsView() {
     <div>
       <h2 className="text-2xl font-bold mb-6 text-center">薄弱点专项练习</h2>
       
-      <div className="mb-4 flex justify-between items-center">
+      <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
         <h3 className="text-xl font-semibold text-gray-700">选择需要加强的语法点</h3>
-        {checkedWeakPoints.length > 0 && (
-          <button 
-            onClick={handleDeleteSelected}
-            className="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700 transition-colors flex items-center"
+        <div className="flex flex-col gap-2 md:flex-row md:items-center md:gap-3">
+          <button
+            onClick={togglePasswordForm}
+            className="px-3 py-1 bg-gray-200 text-gray-700 rounded hover:bg-gray-300 transition-colors"
           >
-            <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-            </svg>
-            删除选中项 ({checkedWeakPoints.length})
+            {storedPassword ? '修改管理密码' : '设置管理密码'}
           </button>
-        )}
+          {checkedWeakPoints.length > 0 && (
+            <button 
+              onClick={handleDeleteSelected}
+              className="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700 transition-colors flex items-center"
+            >
+              <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+              </svg>
+              删除选中项 ({checkedWeakPoints.length})
+            </button>
+          )}
+        </div>
       </div>
-      
+
+      {showPasswordForm && (
+        <div className="mb-6 bg-white p-4 rounded-lg shadow-md">
+          {storedPassword && (
+            <div className="mb-3">
+              <label htmlFor="oldAdminPassword" className="block text-gray-700 mb-1">输入旧密码</label>
+              <input
+                id="oldAdminPassword"
+                type="password"
+                value={oldPasswordInput}
+                onChange={(e) => setOldPasswordInput(e.target.value)}
+                className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="请输入当前管理密码"
+              />
+            </div>
+          )}
+          <div className="mb-3">
+            <label htmlFor="adminPassword" className="block text-gray-700 mb-1">输入新密码</label>
+            <input
+              id="adminPassword"
+              type="password"
+              value={passwordInput}
+              onChange={(e) => setPasswordInput(e.target.value)}
+              className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="请输入管理密码"
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="confirmAdminPassword" className="block text-gray-700 mb-1">确认新密码</label>
+            <input
+              id="confirmAdminPassword"
+              type="password"
+              value={confirmPasswordInput}
+              onChange={(e) => setConfirmPasswordInput(e.target.value)}
+              className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+              placeholder="请再次输入密码"
+            />
+          </div>
+          {passwordMessage && (
+            <p className="text-sm text-red-600 mb-3">{passwordMessage}</p>
+          )}
+          <div className="flex justify-end gap-2">
+            <button
+              onClick={togglePasswordForm}
+              className="px-3 py-1 rounded bg-gray-100 text-gray-600 hover:bg-gray-200"
+            >
+              取消
+            </button>
+            <button
+              onClick={handlePasswordSave}
+              className="px-3 py-1 rounded bg-blue-600 text-white hover:bg-blue-700"
+            >
+              保存密码
+            </button>
+          </div>
+        </div>
+      )}
+
       <div className="mb-8">
         {weakPoints.map((weakPoint, index) => (
           <div 
@@ -155,6 +295,28 @@ function WeakPointsView() {
           </div>
         ))}
       </div>
+
+      {checkedWeakPoints.length > 0 && (
+        <div className="mb-8 bg-white p-4 rounded-lg shadow-md">
+          <label htmlFor="deletePassword" className="block text-gray-700 mb-2">
+            输入管理密码以删除选中的薄弱点：
+          </label>
+          <input
+            id="deletePassword"
+            type="password"
+            value={deletePasswordInput}
+            onChange={(e) => {
+              setDeletePasswordInput(e.target.value);
+              setDeleteError('');
+            }}
+            className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            placeholder="请输入管理密码"
+          />
+          {deleteError && (
+            <p className="text-sm text-red-600 mt-2">{deleteError}</p>
+          )}
+        </div>
+      )}
 
       {selectedWeakPoint && (
         <div className="bg-white p-4 rounded-lg shadow-md">

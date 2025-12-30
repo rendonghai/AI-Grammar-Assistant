@@ -1,92 +1,178 @@
 {
-    "units": [
-        {
-            "unit": "Unit 1",
-            "unit_title": "The king's new clothes",
-            "grammar_points": [
-                "一般过去时：一般过去时表示过去某个时间里发生的动作或状态；过去习惯性、经常性 的动作、行为；主语过去所具备的能力和性格。常见的表示过去的时间状语有 long long ago(很久以前),yesterday  (昨天)和 the   day   before   yesterday(前天)等。",
-                "动词过去式的规则变化：\n动词原形的结尾形式\t过去式构成\t举例\t\n工\t一般情况\t词尾加-ed\tplay→played\t\n2\t不发音的e\t词尾直接加-d\tlive→lived\t\n3\t辅音字母+y\t先将词尾y变为i,再加-ed\ttry→tried\t\n4\t重读闭音节\t先双写词尾辅音字母，再加-ed\tstop→stopped\t\n*重读闭音节是指发音以辅音音素结尾，元音字母发短元音，而且重读的音节。",
-                "规则的动词过去式词尾-ed 的读音：\n规则的动词过去式词尾-ed的读音\t举例\t\n工\t清辅音(声带不振动)后-ed读/t/\tlooked /lukt/laughed /la:ft/\t\n2\t元音、浊辅音(声带振动)后-ed读/d/\tplayed/plerd/lived /lvd/\t\n3\tt和d后的-ed读/Id/\tvisited /'vIzItId/needed /'nidrd/ ",
-                "be  动词的过去式：be 动词的过去式是特殊变化。\nbe 动 词 原 形\tam\tis\tare\nbe 动 词 过 去 式\twas\twas\twere",
-                "what 引 导 的 感 叹 句：如果后面接的是复数名词或不可数名词，其结构为“What+ 形容词+复数名词/不可数名词!”。例如：What beautiful clothes! 多么漂亮的衣服! W hat sweet juice!多么甜的果汁!",
-                "表示轮到某人：用“It's one's turn.”句 型。 这里 的 turn 作名词，意为“轮到的机会”。 例如：\nIt's Bobby's turn.轮到博比了。\nIt's   my   turn   to   clean   the   classroom. 轮到我打扫教室了。"
-            ]
-        },
-        {
-            "unit": "Unit 2",
-            "unit_title": "What a day!",
-            "grammar_points": [
-                "关于天气的表达：\n(1)表示天气的形容词，有的由“其对应的名词+ y(或双写最后的辅音字母再加y)” 变化 而来。例如：\n名词\tsun太阳\twind风\tcloud云\train雨\n形容词\tsunny晴朗的\twindy有风的\tcloudy多云的\trainy多雨的\n(2)rain   和 snow  既可以作名词(不可数),也可以作动词。例如：\n作动词：It   rained   yesterday. 昨天下雨了。\nI  think  it  will  snow  soon. 我觉得很快就要下雪了。\n作名词：There  is  a  lot  of  rain  in  spring  here.这里春季多雨。\nLook at the white snow outside the window. 看窗外的白雪。\n(3)询问天气状况怎么样，可以说“How is/was the weather?”或 者“What is/was the weather like?”(根据问的时段使用对应的时态，同时可以在句末加时间状语);回答一般 是“It  is/was  sunny/rainy/hot/cold  ...”。",
-                "一般过去时的动词不规则变化：动词过去式的不规则变化需要特殊记忆，常见的有：\ngo—went\thave—had\tdo—did\teat—ate\ntake—took\tcan—could\tlos—lost\tfly—flew\nfind—found\tget—got\tsee—saw\tbecome—became\nmeet—met\thold—held\tsay—said\ttell—told\ngive—gave\tmake—made\tbring—brought   think—thought",
-                "What    a    day! 是 一 个由what  引导的感叹句，在没有形容词修饰的情况下，要根据具体语 境来理解其含义。这个感叹句在课文中意为“多么糟糕的一天!”,在其他情境中也可以 表示“多么美好的一天!”等。",
-                "become    意为“变成，变为”,体现转变。 例如：It   becomes   cold    in   winter. 冬天天气变 冷了。",
-                "bring   和 take :bring   意为“带来”,指从别的地方带到说话人或提到的人这边。例如：\nMy  father  brought  me  a  bag.=My  father  brought  a  bag  to  me.我爸爸给我带来了一个包。\ntake 是 与bring  相对应的动词，指从说话人或者提到的人这边带走。例如：\nI  took  my   dog  to  the  park  this  morning. 今天早上我带我的狗去了公园。",
-                "high   和 tall:  两者都表示“高”,但 tall  通常描述人、动物或树木等的高度，只能作形容词， 其反义词是 short 。high     作 形 容 词 ， 指 某 物 从 底 部 到 顶 部 的 高 度 。 例 如 ：a   high    mountain   一座高山；其反义词是 low 。high    也可以作副词。例如： He  jumped   so   high   in the game.他在游戏中跳得很高。"
-            ]
-        },
-        {
-            "unit": "Unit 3",
-            "unit_title": "Holiday fun",
-            "grammar_points": [
-                "一般过去时的疑问句：一般过去时的疑问句结构与一般现在时相似。注意：\n　(1)在一般过去时中，无论第几人称，都用did作为助动词或者表示“做……”。当did作为 助动词时，后面的动词用原形。例如：\n—Did you make a salad yesterday?你昨天做色拉了吗?\n-Yes.I made a fruit salad.是的。我做了一份水果色拉。\n(2)问句和答句时态要统一。例如：\n一What did Yang Ling do last weekend?杨玲上周末做了什么?\n—She visited her grandparents and ate some noodles with them.\n她看望了她的祖父母，并和他们一起吃了些面条。",
-                "“How”引导的特殊疑问句：how单独使用，常意为“怎么样”。例如：\n—How was your holiday?你的假期怎么样?\n—Wonderful!太棒了!\n—How is the weather today?今天天气怎么样?\n—It's sunny and warm.今天晴朗又温暖。\n—How is the soup?汤怎么样?\n—It's too hot.太烫了。\n提优还可以用“What do you think of.…?”询问对方关于某事物的看法。例如：\n一What do you think of these shoes?你觉得这些鞋怎么样?\n—They re nice,but they're too expensive.它们很好看，但是太贵了。",
-                "excited和exciting:\n　excited意为“兴奋的”,用来形容人的感受。“be excited about”表示某人对某事感到激动。 例如：\nShe is excited about the art show.她为艺术展览感到激动。\nexciting用来形容事物，表示某事物令人感到激动。例如：\nThe final race is exciting.决赛令人激动。\n同理，interesting表示事物很有趣。be interested in表示某人对某事感兴趣。例如：\nThe storybook is very interesting.这本故事书很有趣。\nSu Hai is interested in this storybook.苏海对这本故事书感兴趣。"
-            ]
-        },
-        {
-            "unit": "Unit 4",
-            "unit_title": "Then and now",
-            "grammar_points": [
-                "本单元进一步学习一般过去时，并且将过去和现在作比较。一般过去时的记忆口诀：一   般过去时并不难，过去动作、状态记心间。动词要用过去式，时间状语句末(首)站。否  定句很简单，didn't站在动原前，其他部分不要变。一般疑问句也好变，did放在句子前， 主语、动原、其他部分依次站。特殊疑问句也简单，疑问词加一般疑问句记心间。最后一条请注意，动词过去式要牢记!",
-                "ago的用法：ago是副词，表示“……以前”,通常与具体时间连用，构成表示过去的时间短 语。例如：five years ago五年前，three weeks ago三周前，two days ago两天前。",
-                "情态动词can及其过去式：can为情态动词，表示“能够”,不能独立作谓语，后面接动词原 形。否定形式是cannot(缩写为can’t),后面也接动词原形。情态动词没有人称和数的变. 化。例如：\nNow he can do many things.现在他能做很多事情。\n　could是can的过去式，表示过去的能力，否定形式是could not(缩写为couldn't)。例如： Six years ago,Mike could read and draw,but he could not write.\n六年前，迈克能阅读和画画，但他不能书写。",
-                "write的用法：write的过去式是不规则变化，为wrote。write to sb意为“给某人写信”。 例如：\nI wrote to my friend yesterday.昨天我给我朋友写信了。\nHe often writes emails to his e-friends.他经常给他的网友写电子邮件。\nwrite ..for sb意为“为某人写……”。例如：\nMy uncle writes stories for children.我叔叔为孩子们写故事。",
-                "use的用法：use意为“使用”,“use A to do B”是动词短语，意为“使用A(工具等)达到B(目 的)”。例如：\nHe used the telephone to call people.他用电话给人们打电话。\n　同义句是“He called people with the telephone.”。“with sth”是介词短语，在句中可以作状 语，表示“用……”。",
-                "look,see,watch和read:这四个单词都表示“看”,但有所区别：\nlook强调“看”的动作，不能直接加对象，要用at连接对象。例如：\nLook at the blackboard.看黑板。\nsee强调“看”的结果，意思是“看见，看到”。例如：\nI see a bird in the sky.我看见天空中有一只鸟。\n　watch强调“专注地看”,常用来表示看电视、看电影和看比赛等，例如：watch TV看电视。 read通常指“阅读”,例如：read books看书，read newspapers看报纸。"
-            ]
-        },
-        {
-            "unit": "Unit 5",
-            "unit_title": "Signs",
-            "grammar_points": [
-                "“What does it mean?”用于询问某物是什么意思，mean是动词，因为主语it是第三人称 单数形式，所以助动词用does。答语为“It means …”。当主语是复数形式时，句型结构 为“What do+名词/代词复数形式+mean?”,答语为“They mean …”。例如： —What does the sign mean?这个标识是什么意思? —It means you can't walk on the grass.它的意思是禁止践踏草坪。 一What do those signs mean?那些标识是什么意思? —They mean we can't feed animals.它们的意思是禁止投喂动物。",
-                "公共标识的常用句型： (1)“No+动词-ing形式”。No表示否定，“No doing …”相当于“Don't do ..”。例如： No smoking.=Don't smoke.禁止吸烟。 (2)“No+名词(如果是可数名词通常是复数形式)”。例如： No photos.禁止拍照。   No pets.请勿携带宠物 (3)单独的名词形式。例如：Danger!危险!   Exit!出口! (4)“形容词十名词”。例如：Wet floor.小心地滑。 注：公共标识第一个单词的首字母大写。在实际生活中，有的标识为了醒目，可能每个 单词的首字母都大写，或者所有字母都大写。",
-                "“Do you want some juice?”用于征求对方意见或建议对方做某事，通常希望得到肯定回 答，相当于“Would you like some juice?”,所以在此句型中用some而不是any。回答通 常是“Yes,please.”或“No,thanks. ”.",
-                "You can’t take your juice into the shop.你不能把你的果汁带进这家店。take ..into ... 意为“把……带入……”。take的意思是“携带”,和bring相对应。into是介词，表示动作 的方向。 提优carry的意思是“背，扛”,不表示动作的方向，一般指搬运重的东西。例如：The bag is too heavy.I can t carry it.这个包太重了。我搬不动它。carry还可以表示随身携带。 例如：Carry your umbrella.带上你的伞。",
-                "someone的用法：someone是不定代词，意为“某人”,作主语时是第三人称单数，通常指未 知具体身份的人。例如：Listen!Someone is singing.听!有人在唱歌。",
-                "介词around:①表示“在……周围，围绕”。例如：sit around the table围坐在餐桌边 ②表示“在……附近”。例如：around Nanjing在南京附近③表示“大约，差不多(时刻、大 小、数量等)”。例如：around ten o'clock十点左右。"
-            ]
-        },
-        {
-            "unit": "Unit 6",
-            "unit_title": "Keep our city clean",
-            "grammar_points": [
-                "make的用法：make是实义动词，可以表示“制作”,在本单元意思是“使……变得”,常用 结构是“make+复合宾语”,即“make+sb/sth+形容词”,表示“使(某人/某物)变得(怎 么样)”。例如：Fruit can make us healthy.水果能使我们健康。 特殊疑问句“What makes/made....?”中，特殊疑问词what在问句中作主语，当特殊疑问 词作主语时，通常被看作第三人称单数，后面接的谓语动词用第三人称单数形式(一般 现在时的情况)。例如：What makes him happy?什么使他高兴?",
-                "keep的用法：“keep+sth+形容词”意为“保持某物(怎么样)”,例如：keep the classroom clean保持教室干净。keep也可以表示“保持(某种状态)”,例如：keep quiet保持安静。",
-                "不定式to do表示目的：“to+动词短语”表示目的，可以在句首，也可以在句末。例如： To make our city clean,we can put rubbish in the bin. 为了保持我们的城市干净，我们可以把垃圾放进垃圾桶里。 My father uses a mobile phone to call people.我爸爸用手机给人打电话。",
-                "pick up的用法：在由“动词+副词”构成的动词短语中，如果有宾语，且其为名词，可以将 宾语放在副词前面，也可以将宾语放在副词后面(有类似用法的动词短语有try on、put on、take off等)。例如： Pick up the banana skin.=Pick the banana skin up.把香蕉皮捡起来。 但如果宾语是人称代词，就必须将它放在副词前面。例如： Pick it up.把它捡起来。Take them off.把它们脱下来。",
-                "more的用法：more意为“更多的”,是many和much的比较级形式，可以修饰可数名词 (接复数形式),也可以修饰不可数名词。more可以作形容词，也可以作副词。例如： There are more and more people in the street.街上的人越来越多。 I want to drink more milk.我想喝更多的牛奶。 Could you repeat that once more?你能再重复一遍吗?",
-                "help的用法：help作动词时的搭配是“help sb do sth”或“help sb to do sth”,意思是“帮助 某人做某事”。如果表示在某方面帮助某人，也可以是“help sb with sth”。例如： help me with English在英语方面帮助我。"
-            ]
-        },
-        {
-            "unit": "Unit 7",
-            "unit_title": "Protect the Earth",
-            "grammar_points": [
-                "use的用法：use是实义动词，意为“使用”。use sth to do sth意为“用某物来做某事(物)”, 表示用某种物品、手段达到一定的目的。例如： He uses paper to make clothes.他用纸来做衣服。 reuse是实义动词，意为“再利用”。例如：Try to reuse paper.尝试再利用纸张。 useful是形容词，意为“有用的”。例如：This book is useful for you.这本书对你有用。 useful的反义词是useless,意为“无用的，无效的”。 提优use还可以作名词，表示“用处；用法；使用”。例如： The toy car is still in good use.这辆玩具小汽车还很好用。 We must find a use for these old boxes.我们必须为这些旧盒子找到用途。",
-                "should的用法：should是情态动词，后面接动词原形。should do sth表示“应该做某事”, 其否定形式为“should not/shouldn't do sth”,意为“不应该做某事”,shouldn’t是should not的缩写形式。例如： We should finish our homework every day.我们每天都应该完成家庭作业。 We shouldn't waste paper,because paper is made from wood. 我们不应该浪费纸，因为纸是由木头制成的。",
-                "不可数名词：plastic,coal,oil,paper,wood,energy,glass(玻璃)等都是不可数名词，无 复数形式。这些词作主语时be动词用is/was。 many和much都表示“很多”,many用于修饰可数名词复数，much用于修饰不可数名词。 例如： There are many plastic bags on the floor.地板上有很多塑料袋。 Don't use too much water to wash your clothes.不要用太多的水洗衣服。 many和much的比较级形式都是more,意为“更多的”;最高级形式都是most,意为“最多 的”。more和most既可以修饰可数名词，也可以修饰不可数名词。 此外，短语a lot of(=lots of)也表示“很多”,既可以修饰可数名词复数，也可以修饰不可数 名词，通常用于肯定句中。",
-                "most of的用法：most of表示“大部分的”,后面接可数名词的复数形式，也可以接不可数名 词。“most of . …”作主语时，谓语动词的单复数形式由of后面的名词决定。例如： Most of our energy comes from coal and oil.我们的大部分能源来自煤炭和石油。 Most of us come to school on foot.我们中大多数(人)步行上学。"
-            ]
-        },
-        {
-            "unit": "Unit 8",
-            "unit_title": "Chinese New Year",
-            "grammar_points": [
-                "1.一般将来时be going to\n　(1)一般将来时表示将来某个时间要发生的事、打算做的事或将会存在的状态。常见的表示将来的时间状语包括tomorrow(明天),the day after tomorrow(后天),next week/month/year(下周/下个月/明年),soon(不久以后),a few days later(几天以后)等。\n　(2)be going to意为“打算……”,是一般将来时的常见表达形式。be动词形式随主语人称和数的变化而变化。一般将来时be going to的肯定句基本结构为“主语+be going to+动词原形+其他.”。否定句在be动词后加not。一般疑问句则将be动词提前到句首。例如：\n肯定句：They are going to fly kites.他们打算去放风筝。\n否定句：They are not going to fly kites.他们不打算去放风筝。\n一般疑问句：Are they going to fly kites?他们打算去放风筝吗?\n(3)一般将来时be going to的特殊疑问句举例(对画线部分提问):\n③Mike is going to ①play football with ④Liu Tao ②tomorrow.\n①What is Mike going to do with Liu Tao tomorrow?\n②When is Mike going to play football with Liu Tao?\n③Who is going to play footballwith Liu Tao tomorrow?\n④Who(m)is Mike going to play football with tomorrow?\n提优will也可以引导一般将来时，意为“将要”,后面接动词原形。例如：\nThey will have a picnic next weekend.下周末他们将要去野餐。",
-                "2.Chinese New Year is coming.春节就要来了。\n　本句形式上是现在进行时，但这里表示即将发生的事情。用现在进行时表示将来的常见动词有come,go,leave等。例如：I’m going to the supermarket.我要去超市了。",
-                "3.介词in,on,at的用法。\n(1)in用于年、月、季节或一段时间前，也可用于泛指早上、下午或晚上。例如：\n　in 2025在2025年　in December在十二月　in spring在春季\n　in the morning在上午　in the afternoon在下午　in the evening在晚上\n　(2)on用于具体的某一天或具体某一天的早上、下午或晚上。例如：\n　on Monday 在星期一　on the first of May 在五月一日　on Friday morning 在星期五上午\n　on Chinese New Year's Eve在除夕\n　(3)at用于某个假期期间(不指具体的某一天),还可以表示具体的几点钟，以及一天中特定时段的固定搭配。例如：\n　at Chinese New Year 在春节\nat sunrise在日出时　at eight o'clock 在八点　　at 6:30 在六点半\n　　at noon在中午　at midnight在午夜"
-            ]
-        }
-    ]
+  "units": [
+    {
+      "unit": "6上 Unit 1",
+      "unit_title": "The king's new clothes",
+      "grammar_points": [
+        "一般过去时:一般过去时表示过去某个时间里发生的动作或状态;过去习惯性、经常性 的动作、行为;主语过去所具备的能力和性格。常见的表示过去的时间状语有 long long ago(很久以前),yesterday  (昨天)和 the   day   before   yesterday(前天)等。",
+        "动词过去式的规则变化:\n动词原形的结尾形式\t过去式构成\t举例\t\n工\t一般情况\t词尾加-ed\tplay→played\t\n2\t不发音的e\t词尾直接加-d\tlive→lived\t\n3\t辅音字母+y\t先将词尾y变为i,再加-ed\ttry→tried\t\n4\t重读闭音节\t先双写词尾辅音字母,再加-ed\tstop→stopped\t\n*重读闭音节是指发音以辅音音素结尾,元音字母发短元音,而且重读的音节。",
+        "规则的动词过去式词尾-ed 的读音:\n规则的动词过去式词尾-ed的读音\t举例\t\n工\t清辅音(声带不振动)后-ed读/t/\tlooked /lukt/laughed /la:ft/\t\n2\t元音、浊辅音(声带振动)后-ed读/d/\tplayed/plerd/lived /lvd/\t\n3\tt和d后的-ed读/Id/\tvisited /'vIzItId/needed /'nidrd/ ",
+        "be  动词的过去式:be 动词的过去式是特殊变化。\nbe 动 词 原 形\tam\tis\tare\nbe 动 词 过 去 式\twas\twas\twere",
+        "what 引 导 的 感 叹 句:如果后面接的是复数名词或不可数名词,其结构为\"What+ 形容词+复数名词/不可数名词!\"。例如:What beautiful clothes! 多么漂亮的衣服! W hat sweet juice!多么甜的果汁!",
+        "表示轮到某人:用\"It's one's turn.\"句 型。 这里 的 turn 作名词,意为\"轮到的机会\"。 例如:\nIt's Bobby's turn.轮到博比了。\nIt's   my   turn   to   clean   the   classroom. 轮到我打扫教室了。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 2",
+      "unit_title": "What a day!",
+      "grammar_points": [
+        "关于天气的表达:\n(1)表示天气的形容词,有的由\"其对应的名词+ y(或双写最后的辅音字母再加y)\" 变化 而来。例如:\n名词\tsun太阳\twind风\tcloud云\train雨\n形容词\tsunny晴朗的\twindy有风的\tcloudy多云的\trainy多雨的\n(2)rain   和 snow  既可以作名词(不可数),也可以作动词。例如:\n作动词:It   rained   yesterday. 昨天下雨了。\nI  think  it  will  snow  soon. 我觉得很快就要下雪了。\n作名词:There  is  a  lot  of  rain  in  spring  here.这里春季多雨。\nLook at the white snow outside the window. 看窗外的白雪。\n(3)询问天气状况怎么样,可以说\"How is/was the weather?\"或 者\"What is/was the weather like?\"(根据问的时段使用对应的时态,同时可以在句末加时间状语);回答一般 是\"It  is/was  sunny/rainy/hot/cold  ...\"。",
+        "一般过去时的动词不规则变化:动词过去式的不规则变化需要特殊记忆,常见的有:\ngo—went\thave—had\tdo—did\teat—ate\ntake—took\tcan—could\tlos—lost\tfly—flew\nfind—found\tget—got\tsee—saw\tbecome—became\nmeet—met\thold—held\tsay—said\ttell—told\ngive—gave\tmake—made\tbring—brought   think—thought",
+        "What    a    day! 是 一 个由what  引导的感叹句,在没有形容词修饰的情况下,要根据具体语 境来理解其含义。这个感叹句在课文中意为\"多么糟糕的一天!\",在其他情境中也可以 表示\"多么美好的一天!\"等。",
+        "become    意为\"变成,变为\",体现转变。 例如:It   becomes   cold    in   winter. 冬天天气变 冷了。",
+        "bring   和 take :bring   意为\"带来\",指从别的地方带到说话人或提到的人这边。例如:\nMy  father  brought  me  a  bag.=My  father  brought  a  bag  to  me.我爸爸给我带来了一个包。\ntake 是 与bring  相对应的动词,指从说话人或者提到的人这边带走。例如:\nI  took  my   dog  to  the  park  this  morning. 今天早上我带我的狗去了公园。",
+        "high   和 tall:  两者都表示\"高\",但 tall  通常描述人、动物或树木等的高度,只能作形容词, 其反义词是 short 。high     作 形 容 词 , 指 某 物 从 底 部 到 顶 部 的 高 度 。 例 如 :a   high    mountain   一座高山;其反义词是 low 。high    也可以作副词。例如: He  jumped   so   high   in the game.他在游戏中跳得很高。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 3",
+      "unit_title": "Holiday fun",
+      "grammar_points": [
+        "一般过去时的疑问句:一般过去时的疑问句结构与一般现在时相似。注意:\n　(1)在一般过去时中,无论第几人称,都用did作为助动词或者表示\"做……\"。当did作为 助动词时,后面的动词用原形。例如:\n—Did you make a salad yesterday?你昨天做色拉了吗?\n-Yes.I made a fruit salad.是的。我做了一份水果色拉。\n(2)问句和答句时态要统一。例如:\n一What did Yang Ling do last weekend?杨玲上周末做了什么?\n—She visited her grandparents and ate some noodles with them.\n她看望了她的祖父母,并和他们一起吃了些面条。",
+        "\"How\"引导的特殊疑问句:how单独使用,常意为\"怎么样\"。例如:\n—How was your holiday?你的假期怎么样?\n—Wonderful!太棒了!\n—How is the weather today?今天天气怎么样?\n—It's sunny and warm.今天晴朗又温暖。\n—How is the soup?汤怎么样?\n—It's too hot.太烫了。\n提优还可以用\"What do you think of.…?\"询问对方关于某事物的看法。例如:\n一What do you think of these shoes?你觉得这些鞋怎么样?\n—They re nice,but they're too expensive.它们很好看,但是太贵了。",
+        "excited和exciting:\n　excited意为\"兴奋的\",用来形容人的感受。\"be excited about\"表示某人对某事感到激动。 例如:\nShe is excited about the art show.她为艺术展览感到激动。\nexciting用来形容事物,表示某事物令人感到激动。例如:\nThe final race is exciting.决赛令人激动。\n同理,interesting表示事物很有趣。be interested in表示某人对某事感兴趣。例如:\nThe storybook is very interesting.这本故事书很有趣。\nSu Hai is interested in this storybook.苏海对这本故事书感兴趣。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 4",
+      "unit_title": "Then and now",
+      "grammar_points": [
+        "本单元进一步学习一般过去时,并且将过去和现在作比较。一般过去时的记忆口诀:一   般过去时并不难,过去动作、状态记心间。动词要用过去式,时间状语句末(首)站。否  定句很简单,didn't站在动原前,其他部分不要变。一般疑问句也好变,did放在句子前, 主语、动原、其他部分依次站。特殊疑问句也简单,疑问词加一般疑问句记心间。最后一条请注意,动词过去式要牢记!",
+        "ago的用法:ago是副词,表示\"……以前\",通常与具体时间连用,构成表示过去的时间短 语。例如:five years ago五年前,three weeks ago三周前,two days ago两天前。",
+        "情态动词can及其过去式:can为情态动词,表示\"能够\",不能独立作谓语,后面接动词原 形。否定形式是cannot(缩写为can't),后面也接动词原形。情态动词没有人称和数的变. 化。例如:\nNow he can do many things.现在他能做很多事情。\n　could是can的过去式,表示过去的能力,否定形式是could not(缩写为couldn't)。例如 Six years ago,Mike could read and draw,but he could not write.\n六年前,迈克能阅读和画画,但他不能书写。",
+        "write的用法:write的过去式是不规则变化,为wrote。write to sb意为\"给某人写信\"。 例如:\nI wrote to my friend yesterday.昨天我给我朋友写信了。\nHe often writes emails to his e-friends.他经常给他的网友写电子邮件。\nwrite ..for sb意为\"为某人写……\"。例如:\nMy uncle writes stories for children.我叔叔为孩子们写故事。",
+        "use的用法:use意为\"使用\",\"use A to do B\"是动词短语,意为\"使用A(工具等)达到B(目 的)\"。例如:\nHe used the telephone to call people.他用电话给人们打电话。\n　同义句是\"He called people with the telephone.\"。\"with sth\"是介词短语,在句中可以作状 语,表示\"用……\"。",
+        "look,see,watch和read:这四个单词都表示\"看\",但有所区别:\nlook强调\"看\"的动作,不能直接加对象,要用at连接对象。例如:\nLook at the blackboard.看黑板。\nsee强调\"看\"的结果,意思是\"看见,看到\"。例如:\nI see a bird in the sky.我看见天空中有一只鸟。\n　watch强调\"专注地看\",常用来表示看电视、看电影和看比赛等,例如:watch TV看电视。 read通常指\"阅读\",例如:read books看书,read newspapers看报纸。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 5",
+      "unit_title": "Signs",
+      "grammar_points": [
+        "\"What does it mean?\"用于询问某物是什么意思,mean是动词,因为主语it是第三人称 单数形式,所以助动词用does。答语为\"It means …\"。当主语是复数形式时,句型结构 为\"What do+名词/代词复数形式+mean?\",答语为\"They mean …\"。例如: —What does the sign mean?这个标识是什么意思? —It means you can't walk on the grass.它的意思是禁止践踏草坪。 一What do those signs mean?那些标识是什么意思? —They mean we can't feed animals.它们的意思是禁止投喂动物。",
+        "公共标识的常用句型: (1)\"No+动词-ing形式\"。No表示否定,\"No doing …\"相当于\"Don't do ..\"。例如: No smoking.=Don't smoke.禁止吸烟。 (2)\"No+名词(如果是可数名词通常是复数形式)\"。例如: No photos.禁止拍照。   No pets.请勿携带宠物 (3)单独的名词形式。例如:Danger!危险!   Exit!出口! (4)\"形容词十名词\"。例如:Wet floor.小心地滑。 注:公共标识第一个单词的首字母大写。在实际生活中,有的标识为了醒目,可能每个 单词的首字母都大写,或者所有字母都大写。",
+        "\"Do you want some juice?\"用于征求对方意见或建议对方做某事,通常希望得到肯定回 答,相当于\"Would you like some juice?\",所以在此句型中用some而不是any。回答通 常是\"Yes,please.\"或\"No,thanks. \"。",
+        "You can't take your juice into the shop.你不能把你的果汁带进这家店。take ..into ... 意为\"把……带入……\"。take的意思是\"携带\",和bring相对应。into是介词,表示动作 的方向。 提优carry的意思是\"背,扛\",不表示动作的方向,一般指搬运重的东西。例如:The bag is too heavy.I can t carry it.这个包太重了。我搬不动它。carry还可以表示随身携带。 例如:Carry your umbrella.带上你的伞。",
+        "someone的用法:someone是不定代词,意为\"某人\",作主语时是第三人称单数,通常指未 知具体身份的人。例如:Listen!Someone is singing.听!有人在唱歌。",
+        "介词around:①表示\"在……周围,围绕\"。例如:sit around the table围坐在餐桌边 ②表示\"在……附近\"。例如:around Nanjing在南京附近③表示\"大约,差不多(时刻、大 小、数量等)\"。例如:around ten o'clock十点左右。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 6",
+      "unit_title": "Keep our city clean",
+      "grammar_points": [
+        "make的用法:make是实义动词,可以表示\"制作\",在本单元意思是\"使……变得\",常用 结构是\"make+复合宾语\",即\"make+sb/sth+形容词\",表示\"使(某人/某物)变得(怎 么样)\"。例如:Fruit can make us healthy.水果能使我们健康。 特殊疑问句\"What makes/made....?\"中,特殊疑问词what在问句中作主语,当特殊疑问 词作主语时,通常被看作第三人称单数,后面接的谓语动词用第三人称单数形式(一般 现在时的情况)。例如:What makes him happy?什么使他高兴?",
+        "keep的用法:\"keep+sth+形容词\"意为\"保持某物(怎么样)\",例如:keep the classroom clean保持教室干净。keep也可以表示\"保持(某种状态)\",例如:keep quiet保持安静。",
+        "不定式to do表示目的:\"to+动词短语\"表示目的,可以在句首,也可以在句末。例如: To make our city clean,we can put rubbish in the bin. 为了保持我们的城市干净,我们可以把垃圾放进垃圾桶里。 My father uses a mobile phone to call people.我爸爸用手机给人打电话。",
+        "pick up的用法:在由\"动词+副词\"构成的动词短语中,如果有宾语,且其为名词,可以将 宾语放在副词前面,也可以将宾语放在副词后面(有类似用法的动词短语有try on、put on、take off等)。例如: Pick up the banana skin.=Pick the banana skin up.把香蕉皮捡起来。 但如果宾语是人称代词,就必须将它放在副词前面。例如: Pick it up.把它捡起来。Take them off.把它们脱下来。",
+        "more的用法:more意为\"更多的\",是many和much的比较级形式,可以修饰可数名词 (接复数形式),也可以修饰不可数名词。more可以作形容词,也可以作副词。例如: There are more and more people in the street.街上的人越来越多。 I want to drink more milk.我想喝更多的牛奶。 Could you repeat that once more?你能再重复一遍吗?",
+        "help的用法:help作动词时的搭配是\"help sb do sth\"或\"help sb to do sth\",意思是\"帮助 某人做某事\"。如果表示在某方面帮助某人,也可以是\"help sb with sth\"。例如: help me with English在英语方面帮助我。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 7",
+      "unit_title": "Protect the Earth",
+      "grammar_points": [
+        "use的用法:use是实义动词,意为\"使用\"。use sth to do sth意为\"用某物来做某事(物)\", 表示用某种物品、手段达到一定的目的。例如: He uses paper to make clothes.他用纸来做衣服。 reuse是实义动词,意为\"再利用\"。例如:Try to reuse paper.尝试再利用纸张。 useful是形容词,意为\"有用的\"。例如:This book is useful for you.这本书对你有用。 useful的反义词是useless,意为\"无用的,无效的\"。 提优use还可以作名词,表示\"用处;用法;使用\"。例如: The toy car is still in good use.这辆玩具小汽车还很好用。 We must find a use for these old boxes.我们必须为这些旧盒子找到用途。",
+        "should的用法:should是情态动词,后面接动词原形。should do sth表示\"应该做某事\", 其否定形式为\"should not/shouldn't do sth\",意为\"不应该做某事\",shouldn't是should not的缩写形式。例如: We should finish our homework every day.我们每天都应该完成家庭作业。 We shouldn't waste paper,because paper is made from wood. 我们不应该浪费纸,因为纸是由木头制成的。",
+        "不可数名词:plastic,coal,oil,paper,wood,energy,glass(玻璃)等都是不可数名词,无 复数形式。这些词作主语时be动词用is/was。 many和much都表示\"很多\",many用于修饰可数名词复数,much用于修饰不可数名词。 例如: There are many plastic bags on the floor.地板上有很多塑料袋。 Don't use too much water to wash your clothes.不要用太多的水洗衣服。 many和much的比较级形式都是more,意为\"更多的\";最高级形式都是most,意为\"最多 的\"。more和most既可以修饰可数名词,也可以修饰不可数名词。 此外,短语a lot of(=lots of)也表示\"很多\",既可以修饰可数名词复数,也可以修饰不可数 名词,通常用于肯定句中。",
+        "most of的用法:most of表示\"大部分的\",后面接可数名词的复数形式,也可以接不可数名 词。\"most of . …\"作主语时,谓语动词的单复数形式由of后面的名词决定。例如: Most of our energy comes from coal and oil.我们的大部分能源来自煤炭和石油。 Most of us come to school on foot.我们中大多数(人)步行上学。"
+      ]
+    },
+    {
+      "unit": "6上 Unit 8",
+      "unit_title": "Chinese New Year",
+      "grammar_points": [
+        "1.一般将来时be going to\n　(1)一般将来时表示将来某个时间要发生的事、打算做的事或将会存在的状态。常见的表示将来的时间状语包括tomorrow(明天),the day after tomorrow(后天),next week/month/year(下周/下个月/明年),soon(不久以后),a few days later(几天以后)等。\n　(2)be going to意为\"打算……\",是一般将来时的常见表达形式。be动词形式随主语人称和数的变化而变化。一般将来时be going to的肯定句基本结构为\"主语+be going to+动词原形+其他.\"。否定句在be动词后加not。一般疑问句则将be动词提前到句首。例如:\n肯定句:They are going to fly kites.他们打算去放风筝。\n否定句:They are not going to fly kites.他们不打算去放风筝。\n一般疑问句:Are they going to fly kites?他们打算去放风筝吗?\n(3)一般将来时be going to的特殊疑问句举例(对画线部分提问):\n③Mike is going to ①play football with ④Liu Tao ②tomorrow.\n①What is Mike going to do with Liu Tao tomorrow?\n②When is Mike going to play football with Liu Tao?\n③Who is going to play footballwith Liu Tao tomorrow?\n④Who(m)is Mike going to play football with tomorrow?\n提优will也可以引导一般将来时,意为\"将要\",后面接动词原形。例如:\nThey will have a picnic next weekend.下周末他们将要去野餐。",
+        "2.Chinese New Year is coming.春节就要来了。\n　本句形式上是现在进行时,但这里表示即将发生的事情。用现在进行时表示将来的常见动词有come,go,leave等。例如:I'm going to the supermarket.我要去超市了。",
+        "3.介词in,on,at的用法。\n(1)in用于年、月、季节或一段时间前,也可用于泛指早上、下午或晚上。例如:\n　in 2025在2025年　in December在十二月　in spring在春季\n　in the morning在上午　in the afternoon在下午　in the evening在晚上\n　(2)on用于具体的某一天或具体某一天的早上、下午或晚上。例如:\n　on Monday 在星期一　on the first of May 在五月一日　on Friday morning 在星期五上午\n　on Chinese New Year's Eve在除夕\n　(3)at用于某个假期期间(不指具体的某一天),还可以表示具体的几点钟,以及一天中特定时段的固定搭配。例如:\n　at Chinese New Year 在春节\nat sunrise在日出时　at eight o'clock 在八点　　at 6:30 在六点半\n　　at noon在中午　at midnight在午夜"
+      ]
+    },
+    {
+      "unit": "6下 Unit1",
+      "unit_title": "The lion and the mouse",
+      "grammar_points": [
+        "形容词和副词的区别\n(1)形容词是表示人或事物的性质、状态和特征的词,它常和名词或系动词连用。例如:\nShe has a beautiful dress.她有一条漂亮的连衣裙。(形容词用在名词前面作定语) He is/looks sad.他很伤心/看起来很伤心。(形容词用在系动词后面作表语)\n常见系动词:\n状态系动词:主要用于表示主语的特征、状态和身份,常见的有be(是),keep/stay(保 持)等。\n感官系动词:用于描述人的感官印象,如视觉、听觉、嗅觉、味觉等,常见的有look(看起 来),feel(感觉),sound(听起来),smell(闻起来),taste(尝起来)等。\n变化系动词:用于描述主语的变化或转变,常见的有become(变得),get(变得),turn( 变 成),grow(变得),go(变得)等。\n(2)副词一般用来表示某一动作的特征,可用在行为动词后。例如:\nLook!She is dancing beautifully.看!她跳舞跳得很优美。\nThey often talk loudly.他们经常大声谈话。\n提优副词也可以用来修饰形容词或其他副词,通常放在被修饰词的前面。例如:\nThis sandwich is  really delicious.这个三明治真的很美味。\nI like this book  very much.我非常喜欢这本书。",
+        "副词的构成方式\n类型                 变化规律                  例词\n一般情况         直接在形容词词尾加-ly real—really slow—slowly\n以辅音字母加y结尾的    先将y改成i,再加-1y  happy—happily easy—easily\nterrible—terribly\n大多数以le结尾的        先去掉e,再加-y\nsimple—simply\n特殊变化                                        good—well\n本身既是形容词也是副词        无需改变        early;late;fast;high;hard",
+        "bring和take的辨析\nbring意为\"拿来,带来\",是指将某物从别处带到说话者所在的地方来,动作由远及近。 take意为\"带去,拿走\",指某人从说话者所在地将某物带到别处去,动作由近及远。",
+        "wake up的用法\nwake up意为\"吵醒,叫醒\",常用形式为wake sb.up=wake up sb.,但当这类短语与人称\n代词连用时,要用宾格形式,而且必须放在两词之间,如:try them on,pick it up...;此外, wake up也可以单独使用,用于叫某人醒来等场景,意为\"醒醒\"。"
+      ]
+    },
+    {
+      "unit": "6下 Unit2",
+      "unit_title": "Good habits",
+      "grammar_points": [
+        "频度副词:一般用来表示动作发生的频率,任何时态下都可以使用。常见的频度副词有(按照频率由高到低排列):alwavs>usuallv>often>sometimes>seldom(很少)>never。本 课新学的单词never意为\"从不\"。易错:never和don't(doesn't)都表示否定,但词性不同。 never不影响动词在句子中的形式,而don't(doesn't)后面的动词必须是原形。它们的意思也有差异。例如:Su Yang never cleans the room.苏洋从不打扫房间。Su Yang doesn't clean the room.苏洋不打扫房间。提优对频率提问用how often或how many times。",
+        "early和late是一组反义词,它们既是形容词也是副词。例如:You're  early(形容词).你来得早。I get up  early(副词)every day.我每天早起。Don't be  late(形容词)for school.上学不要迟到。Why did you come to school late(副词)?你为什么上学迟到?",
+        "do well:do well意为\"做得好\",表示\"在某个方面做得好\"用介词in。后面接名词或动名词 (动词-ing形式)。 do well in和be good at经常可以同义转换。例如:He does well in English.=He is good at English.他英语学得好。Mike does well in playing football.=Mike is good at playing football.迈克踢足球踢得好。",
+        "on time:on time意为\"准时,按时\"。例如:I have breakfast on time every day.我每天按时吃早餐。易混:in time意为\"及时\"。例如:So many cars!Can we get to the airport in time?这么多车!我们能及时到达机场吗?",
+        "order的用法order作不可数名词,表示次序,顺序。例如:put ...in order把……整理得井井有条; keep...in order保持……井井有条。order作可数名词,表示指示,命令。例如:give orders(下命令)。",
+        "know Liu Tao well非常了解刘涛know a lot about Liu Tao了解很多关于刘涛(的情况) know a lot from Liu Tao从刘涛那知道很多"
+      ]
+    },
+    {
+      "unit": "6下 Unit3",
+      "unit_title": "A healthy diet",
+      "grammar_points": [
+        "不可数名词:不可数名词通常没有复数形式,不能在词尾加-s或-es变复数,作主语时谓语 动词用第三人称单数。常见的与饮食相关的不可数名词有:rice,bread,meat,beef,juice,milk,water等 。",
+        "修饰名词的量的词汇\n\n只修饰可数 名词复数\ta few几个;many很多(注意:后面的名词必须是复数形式)\n例 :There are a few ants near the grass.草附近有几只蚂蚁。 There are many books in my room.我的房间里有很多书。\n\n只修饰不 可数名词\n\n既修饰可数名 词复数又修饰 不可数名词\ta little一点;much很多\n例 :I drank a little green tea just now.我刚才喝了一点绿茶。 Be careful!There's much water on the floor.\n小心!地板上有很多水。\nsome一些;a lot of=lots of很多;大量\n例 :Would you like some/a lot of sweets?你想要一些/很多糖吗? We need some/a lot of rice.我们需要一些/很多大米。\n提优a few和a little表示肯定意义;而few和little则表示否定意义,意为\"不多;几乎没 有\"。例如:\nI have a few good friends.我有几个好朋友。\nFew people know the answer.很少有人知道答案。\nPeter can speak a little Chinese.彼得能说一点中文。\nI understand little of what he said.我几乎听不懂他所说的。\n注意:little还表示\"小的\"。例如:\nI want a little bird as a pet.我想要一只小鸟作为宠物。",
+        "have用法总结\n(1)表示\"有\",例:have a new car有一辆新车\n(2)表示\"吃;喝\",例:have breakfast吃 早 饭 ;have some milk喝一些牛奶\n(3)表示\"进行(活动);举办\",例:have a rest休息 一 下;have a look看一看\n(4)表示\"患病\",例:have a headache头痛;have a cold感 冒 ;have a fever发烧"
+      ]
+    },
+    {
+      "unit": "6下 Unit4",
+      "unit_title": "Road safety",
+      "grammar_points": [
+        "情态动词must,can和should的用法\nmust,can和should都是情态动词。它们没有人称和数的变化,后跟动词原形,它们的否 定形式后面同样跟动词原形。在特殊疑问句中,情态动词放在疑问词后。例如:\nWhat must we do on the road?我们在马路上必须做什么?\n(1)must的意思是\"必须\",它的语气最强,表示命令或权威。 must的否定形式是mustn't, 表示\"不准;禁止\"。例如:\nYou must listen to the teacher carefully in class.在课堂上你必须认真听老师讲(课)。 You mustn't play on the road.你不准在马路上玩。\n(2)can的意思是\"能;会\",常用来表示有能力或允许做某事。它的过去式是could。例如:\nI could only read ten years ago,but now I can do many things.\n十年前我只会阅读,但是现在我能做许多事。\nYou can watch TV now.你现在可以看电视。\n(3)should的意思是\"应该;应当\",语气最弱,常用来提出建议。例如:\nYou should take some medicine now.你现在应当吃一些药。\nYou shouldn't talk loudly.你不应该大声讲话。",
+        "safe,safely和safety的用法\nsafe是形容词,意为\"安全的\",常放在系动词之后,名词之前。 safely是副词,意为\"安全 地\",常用来修饰动词。 safety是名词,意为\"安全\"。例如:\nRoad safety is important.We must cross the road safely.We should keep us safe.\n马路安全是重要的。我们必须安全地过马路。我们应该保证自己安全。",
+        "look常用的词组搭配\nlook out(for)注意,当心look at看look for寻找look forward to期待,期盼 look after照顾,关心look back(on sth.)回首(往事),回忆,回顾\n注意:look out为不及物动词短语,不能直接接宾语。 look out能单独使用,意为\"小心\"。"
+      ]
+    },
+    {
+      "unit": "6下 Unit5",
+      "unit_title": "A party",
+      "grammar_points": [
+        "be going to 构成的一般将来时:\"be going to+动词原形\"表示打算做某事或按计划将要做 某事。表示将来的时间状语有tomorrow,soon,next year,in a few days等。例如:She's going to plant trees tomorrow morning. 她打算明天上午去种树。\n①be going to 构成的一般将来时的陈述句,表示否定时在 be 动词后加not 。 例如:The girl isn't going to grow flowers this afternoon. 这个女孩今天下午不打算种花。\n②be going to 构成的一般疑问句,结构为\"Be 动 词 + 主 语 +going to+ 动词原形(+其 他)?\"。其肯定回答是\"Yes, 主 语 +be 动词.\",否定回答是\"No, 主 语 +be 动 词 +not.\"。 例如:— Are you going to play the piano the day after tomorrow?你后天打算弹钢琴吗? —Yes,I am./No,I'm not. 是的,我打算。/不,我不打算。\n③be going to 构成的特殊疑问句,结构为\"特殊疑问词+be 动 词 + 主 语 +going to+动词 原形(十其他)?\"。回答应视具体问题而定。例如:—When is your mother going to visit Shanghai?你妈妈打算什么时候参观上海?—Next weekend. 下个周末。",
+        "begin 和 end: 它们是一组反义词。 begin 的同义词是 start, 意为\"开始\"。start 比 begin 更 加口语化,并且表示\"动身,出发\"时只能用 start。 例 如 :Class starts/begins at eight. 八点开始上课。He started for Beijing yesterday.他昨天启程去了北京。end 意为\"结束\",既是动词也是名词。",
+        "Are we going to eat or play with the toys first? 我们先吃东西还是先玩玩具?这是一个选择疑问句。英语中的选择疑问句提供两个或两个以上并列的选择,可供选择的最 后两个部分用or 连接,前者读升调,后者读降调。选择疑问句的答语通常是完整的句子,要选择其中之一回答。不能用yes 或 no 回答。",
+        "\"穿\"法不同。put on,wear,dress,in都含有\"穿\"的意思,但它们的用法却不相同。\n①put on 是动词短语,意为\"穿上\",侧重于\"穿\"这一动作,即由\"没穿\"到\"穿\"这一动作的完 成,后接衣服、鞋帽等。例如: It's cold.Please put on this coat.天很冷。请穿上这件外套。\n②wear 是动词,意为\"穿着;戴着\",表示状态,宾语可以是衣帽,也可以是饰物、奖章等。例如: She often wears skirts. 她经常穿短裙。\n③dress 是动词,意为\"给……穿衣服\",常见搭配有 dress sb. 。例 如 :She dressed the baby. 她给婴儿穿了衣服。\n④in 是介词,意为\"穿着;戴着\",后接表示衣服或颜色的词,侧重于服装的款式或颜色。例如:He is in a white T-shirt.他穿着 一件白色T 恤 衫 。"
+      ]
+    },
+    {
+      "unit": "6下 Unit6",
+      "unit_title": "An interesting country",
+      "grammar_points": [
+        "will:will是助动词,意为\"将,将要\"。可用于各种人称后,无人称和数的变化。\n①\"will+动词原形\"可以用来构成一般将来时,表示将要发生的事情或对未来的预测。\n②will和人称代词主格写在一起时,常写为\"'ll\"。如I will=I'll,you will=you'll,he will= he'll等。\n③will的否定形式是will not,可以缩写成won't。例如:The children won't go to the library tomorrow.孩子们明天不打算去图书馆。",
+        "will和be going to的区别:①be going to表示说话人主观计划或判断将来要做的事情。will多用于客观上将要发生的事情。例如:He has a cold.He is going to the hospital.他感冒了。他要去医院。He will be thirty years old.他将要三十岁了。\n②当表示没有经过事先计划和考虑,而是在说话时临时想到或做出决定时,用will。如果经过事先考虑和具体计划,则用be going to。例如:She is going to dance for us.她打算为我们跳舞。 I'll answer the telephone.我去接电话。\n③在正式的通知(比如天气预报、新闻、官方消息等)中用will。例如:Nanjing will be cloudy with the temperature of eight degrees tomorrow.南京明天多云,气温八摄氏度。",
+        "find,look for和find out的区别:三者都含有\"寻找\"之意,但它们的用法却不同。\n①find是及物动词,意为\"找到\",强调结果。例如:They found Bobby in his bedroom.他们在他的卧室找到了博比。\n②look for意为\"寻找\",表示寻找的过程和动作。例如:I'm looking for my book.我正在寻找我的书。\n③find out意为\"找出;发现;查明\",表示经过研究、计算和探寻后得出结论。例如:Mike found out the answer on the Internet.迈克在网上查明了答案。",
+        "learn和study辨析:①表示学习某学科时两者均可。例如:We learn/study Chinese,Maths and English.我们学习语文、数学和英语。\n②learn侧重指通过模仿和学习获取知识和技能。例如:She is learning to play the pipa.她在学弹琵琶。\n③study强调学习的过程,指深入、系统地进行学习(不是单纯获得技巧),带有努力和勤奋的含义。例如:I like studying in the library.我喜欢在图书馆学习。",
+        "exciting和excited的区别:exciting意为\"令人激动的,令人兴奋的\",一般修饰事物;excited意为\"兴奋的\",一般修饰人。"
+      ]
+    },
+    {
+      "unit": "6下 Unit7",
+      "unit_title": "Summer holiday plans",
+      "grammar_points": [
+        "will引导的一般疑问句:句型结构为\"Will+主语+动词原形(十其他)?\"。肯定回答为\"Yes, 主语+will.\";否定回答为\"No,主语+won't(will not的缩略形式).\"。例如:—Will the boy skate this afternoon?那个男孩今天下午将去溜冰吗?—Yes,he will.是的,他将会(去)。/No,he won't.不,他将不会(去)。",
+        "含有will的特殊疑问句:句型结构为\"特殊疑问词(组)+will+主语+动词原形(+其 他)?\"。回答视具体情况而定,问什么答什么。例如:—When will we go?我们将何时去?—We will go tomorrow.我们将明天去。—How will you go there?你们将怎么去那里?—We'll go there by bus.我们将乘坐公共汽车去那里。",
+        "how long的用法:①how long可以用于询问时间的长短,意思是\"多长时间;多久\"。例如: —How long did he stay in London last year?他去年在伦敦待了多久?—Twenty days.二十天。②how long也可以用于询问物体的长度,意思是\"多长\"。例如:—How long is the bridge?那座桥有多长?—It's about 500 metres.它大概500米长。",
+        "plan:①plan作为名词时,是可数名词,表示\"计划,打算\",通常与for连用,即a plan/plans for...,表示\"关于某方面的计划\"。拓展 :the birthday plans=the plans for the birthday生日计划 your study plans=the plans for your study你的学习计划our travel plans=the plans for our travel我们的旅行计划②plan还可以作动词,常用搭配是plan to do sth.,表示\"计划、打算去做某事\"。",
+        "go back to:意为\"回去\",后面接地点名词。如果后面是home,here,there等地点副词,则 不能加介词to。如果指回到说话人这里来,则用come back to。",
+        "be excited about:表示\"(某人)对某事物感到兴奋/激动\"。about后面接事物。",
+        "same和different:same意为\"相同的\",前面加the,后面通常接单数名词。例如:They have the same hobby.他们有同样的爱好。different意为\"不同的\",后面接复数名词。例如:They have different dreams.他们有不同的梦想。"
+      ]
+    },
+    {
+      "unit": "6下 Unit8",
+      "unit_title": "Our dreams",
+      "grammar_points": [
+        "询问对方将来想成为什么的句型及其答句:询问对方将来想成为什么(职业,什么样的人等)时用\"What do you want to be in the future?\",回答时用\"I want to be + a / an + 职业名词。\"例如:— What do you want to be in the future? 你将来想成为什么?— I want to be a policeman. 我想成为一名警察。",
+        "询问对方将来想做什么事的句型及其答句:询问对方将来想做什么事时用\"What do you want to do in the future?\",回答时用\"I want to + 动词原形 + 其他。\"例如:— What do you want to do in the future? 你将来想做什么?— I want to play football in the World Cup. 我想在世界杯比赛中踢足球。",
+        "描述某物或某事使某人怎么样句型:\"主语 + make(s) + 人物 + 形容词。\"若主语是动词,则 要用动名词形式;动名词作主语时,谓语动词通常用第三人称单数形式。例如:Running makes Mike strong.跑步使迈克强壮。",
+        "职业名词的构成:类型 例词\n------------------------------------------------------------\n以 -er 结尾 driver 司机 farmer 农民 player 运动员\n writer 作家 teacher 教师 traveller 旅行者\n waiter 服务员 worker 工人 dancer 舞蹈家\n以 -or 结尾 doctor 医生 actor 演员\n以 -ist 结尾 artist 艺术家 dentist 牙医\n pianist 钢琴演奏家 scientist 科学家\n其他(特殊) astronaut 宇航员 cook 厨师 nurse 护士\n student 学生 pupil 学生,特指小学生\n policeman 警察",
+        "care about 和 take care of:两者都含有\"关心\"的意思,但是 care about 的意思是\"关心,在乎\",表示把某人或某事放在心上。而 take care of 的意思是\"照顾,照看\",与 look after 的意思相近。",
+        "常见的动名词短语或句型:① like doing sth. 喜欢做某事 ② go doing 去做 ③ be busy doing sth. 忙于做某事 ④ be good at / do well in doing sth. 擅长做某事 ⑤ How / What about doing sth.? 做某事怎么样? ⑥ No doing … 禁止 / 请勿做……"
+      ]
+    }
+  ]
 }
